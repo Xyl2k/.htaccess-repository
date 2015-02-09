@@ -1,0 +1,89 @@
+HeaderName HEADER.html
+ReadmeName FOOTER.html
+PHP 1
+ErrorDocument 404 http://xylirepo.free.fr/404.html
+
+IndexIgnore .htaccess Tmp favicon.ico 404.html lbox FOOTER.html Thumbs.db db thunderdev
+
+IndexOptions SuppressHTMLPreamble FancyIndexing
+
+IndexOrderDefault Ascending Description
+
+AddIcon (IMG,http://xylirepo.free.fr/Tmp/file-image.gif) .svg .SVG .wmf .WMF
+AddIcon (IMG,http://xylirepo.free.fr/Tmp/file-image.gif) .gif .GIF
+AddIcon (IMG,http://xylirepo.free.fr/Tmp/file-image.gif) .jpg .JPG .jpeg .JPEG
+AddIcon (IMG,http://xylirepo.free.fr/Tmp/file-image.gif) .png .PNG
+AddIcon (IMG,http://xylirepo.free.fr/Tmp/file-image.gif) .bmp .BMP
+AddIcon (IMG,http://xylirepo.free.fr/Tmp/file-image.gif) .psd .PSD
+AddIcon (IMG,http://xylirepo.free.fr/Tmp/file-image.gif) .ico .ICO
+AddIcon (IMG,http://xylirepo.free.fr/Tmp/file-image.gif) .tif .TIF .tiff .TIFF
+
+AddDescription "Image / PNG"       *.png *.PNG
+AddDescription "Image / JPG"       *.jpg *.JPG
+AddDescription "Image / BMP"       *.bmp *.BMP
+AddDescription "Image / SVG"       *.svg *.SVG
+AddDescription "Image / GIF"       *.gif *.GIF
+AddDescription "Image / WMF"       *.wmf *.WMF
+AddDescription "Image / PSD"       *.psd *.PSD
+AddDescription "Image / ICO"       *.ico *.ICO
+
+AddIcon (VIDEO,http://xylirepo.free.fr/Tmp/file-video.gif) .mov .MOV .avi .AVI .mpg .MPG .wmv .WMV .FLV .flv
+AddDescription "Video / QuickTime"      *.mov *.MOV
+AddDescription "Video / AVI"       *.avi *.AVI
+AddDescription "Video / MPEG"     *.mpg *.MPG
+AddDescription "Video / WMV"     *.wmv *.WMV
+AddDescription "Video / Flash Video"     *.flv *.FLV
+
+AddIcon (AUDIO,http://xylirepo.free.fr/Tmp/file-audio.gif) .wma .mp3 .mp4 .midi .mid .WMA .MP3 .MP4 .MIDI .MID
+AddDescription "Audio / MP3"     *.mp3 *.MP3
+AddDescription "Audio / MP4"     *.mp4 *.MP4
+AddDescription "Audio / WMA"     *.wma *.WMA
+AddDescription "Audio / MIDI"     *.mid *.midi
+
+AddIcon (FLA,http://xylirepo.free.fr/Tmp/file-video.gif) .fla .FLA
+AddIcon (FLA,http://xylirepo.free.fr/Tmp/file-video.gif) .as .AS
+AddDescription "Flash / FLA"       *.fla *.FLA
+AddDescription "Flash / AS"         *.as  *.AS
+
+AddIcon (SWF,http://xylirepo.free.fr/Tmp/file-video.gif) .swf .SWF
+AddDescription "Flash / SWF"       *.swf *.SWF
+
+AddIcon (TXT,http://xylirepo.free.fr/Tmp/file-text.gif) .txt .TXT
+AddDescription "Document / TXT" *.txt *.TXT
+
+AddIcon (DOC,http://xylirepo.free.fr/Tmp/file-text.gif) .doc .DOC .rtf .RTF
+AddDescription "Document / DOC" *.doc *.DOC *.rtf *.RTF
+
+AddIcon (PHP,http://xylirepo.free.fr/Tmp/file-html.gif) .php .PHP .phtml .PHTML
+AddDescription "Fichier Web / PHP" *.php *.PHP
+AddDescription "Fichier Web / PHTML" *.phtml *.PHTML
+
+AddIcon (HTM,http://xylirepo.free.fr/Tmp/file-html.gif) .htm .html .HTM .HTML
+AddDescription "Fichier Web / HTML" *.htm* *.HTM*
+
+AddIcon (HTC,http://xylirepo.free.fr/Tmp/emblem-camera.gif) .htc .HTC
+AddDescription "Comportement IExplorer" *.htc* *.HTC*
+
+AddIcon (CSS,http://xylirepo.free.fr/Tmp/emblem-special.gif) .css .CSS
+AddDescription "Feuille de style / CSS" *.css *.CSS
+AddDescription "Javascript" *.js *.JS
+
+AddIcon (EXE,http://xylirepo.free.fr/Tmp/file-compressed.gif) .exe .EXE
+AddDescription "Exécutable" *.exe *.EXE *.eXe *.ExE
+
+AddIcon (ARCHIVE,http://xylirepo.free.fr/Tmp/link.gif) .jar .zip .rar .arj .arc .tar .targz .gz
+AddDescription "Archive / ZIP" *.zip *.ZIP
+AddDescription "Archive / RAR" *.rar *.RAR
+AddDescription "Archive / ARJ" *.arj *.ARJ
+AddDescription "Archive / ARC" *.arc *.ARC
+AddDescription "Archive / TAR" *.tar *.TAR
+AddDescription "Archive / JAR" *.jar *.JAR
+AddDescription "Archive / GZ" *.gz *.GZ
+AddDescription "Archive / TARGZ" *.targz *.TARGZ
+
+
+AddIcon (PAR,http://xylirepo.free.fr/Tmp/parent.gif) ..
+AddIcon (DIR,http://xylirepo.free.fr/Tmp/dir.gif) ^^DIRECTORY^^
+AddDescription "Dossier parent" ..
+
+DefaultIcon http://xylirepo.free.fr/favicon.ico

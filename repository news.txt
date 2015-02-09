@@ -1,0 +1,10 @@
+[v1 | 12:54 06.01.2014]
+[+] /Bordel/Images/toilet fail.png
+
+[v1 | 15:40 01.12.2013]
+[+] /Reverse engineering/Win32/badBios1.png
+[+] /Reverse engineering/Win32/badBios2.png
+[~] /Bordel/Images/07db31892968ef81aa573d5b54f2c98f3.exe -->> /Reverse engineering/CrackMes/crackme 3.exe
+[+] /Bordel/Strip Tease des Ardennes_ Une soirée au kebab.mp4
+[+] /Bordel/Super.Connard.GBC-RED.zip
+[+] /Bordel/Images/Beat me fuckers !.png
