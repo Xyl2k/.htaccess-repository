@@ -1,6 +1,6 @@
 HeaderName HEADER.html
 ReadmeName FOOTER.html
-PHP 1
+
 ErrorDocument 404 http://xylirepo.free.fr/404.html
 
 IndexIgnore .htaccess Tmp favicon.ico 404.html lbox FOOTER.html Thumbs.db db thunderdev
@@ -69,7 +69,7 @@ AddDescription "Feuille de style / CSS" *.css *.CSS
 AddDescription "Javascript" *.js *.JS
 
 AddIcon (EXE,http://xylirepo.free.fr/Tmp/file-compressed.gif) .exe .EXE
-AddDescription "Exécutable" *.exe *.EXE *.eXe *.ExE
+AddDescription "ExÃ©cutable" *.exe *.EXE *.eXe *.ExE
 
 AddIcon (ARCHIVE,http://xylirepo.free.fr/Tmp/link.gif) .jar .zip .rar .arj .arc .tar .targz .gz
 AddDescription "Archive / ZIP" *.zip *.ZIP
